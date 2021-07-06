@@ -6,7 +6,7 @@ Just a quick and easy way to get PHP up and running on evyerthing that runs Dock
 Let's assume you have an awesome project! Let's wrap a docker container around it to make it platform independent 
 
 ```bash
-docker run -it -v $pwd:/var/www/html -p 8080:80 xantios/phpdev
+docker run -it -v $PWD:/var/www/html/ -p 8080:80 xantios/phpdev
 ```
 
 ## Cool and now what?
